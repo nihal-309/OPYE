@@ -1,0 +1,44 @@
+.Ready{
+    background-color: #B4DCFA;
+    margin: 20px 0;
+    display: flex;
+    position: relative;
+}
+
+.ReadyText{
+    text-align: left;
+}
+
+.content1 .ReadyText a{
+    color: #163247;
+    font-family: 'Exo2' serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 39px;
+}
+
+.content1 .ReadyText p{
+    color: #163247;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 39px;
+    font-family: 'Montesrrat' 'serif';
+}
+
+.content1 .head{
+    text-align: left;
+    text-align: center;
+    font-family: 'Lobster';
+    font-size: 48px;
+    color: #163247;
+}
+  
+.content1{
+    width: 466px;
+    padding: 80px 150px;
+    width: 25%;
+}
+
+.ReadyCarousel .container .marquee{
+    max-height: 120vh !important;
+}

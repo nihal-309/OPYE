@@ -1,0 +1,48 @@
+.WhyChooseContent{
+    width: 35%;
+    padding: 30px 0 50px;
+    margin-left: 100px;
+}
+
+.head{
+    text-align: center;
+    font-family: 'Lobster';
+    font-size: 48px;
+    color: #163247;
+  }
+  
+  .WhyChoose{
+    background-color: #B4DCFA;
+    display: flex;
+    margin: 20px 0;
+  }
+  
+  .svg1{
+    min-width: 84px;
+    min-height: 81px;
+  }
+  
+  .svg2{
+    min-width: 87px;
+  }
+  
+  .svg3{
+    max-width: 87px;
+    max-height: 79px;
+  }
+  
+  .svg4{
+    position: relative;
+    bottom: 58.1%;
+    left: 30.2%;
+    height: 23px;
+    width: 23px;
+  }
+  
+  .learn{
+    display: flex;
+  }
+  
+  .learn svg{
+    margin: 5px 0 0 30px;
+  }

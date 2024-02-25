@@ -1,0 +1,68 @@
+@tailwind components;
+@tailwind utilities;
+.Carousel{
+    width: 510px;
+    margin: 0 100px;
+}
+
+.Ready .container{
+    min-height: 125vh;
+}
+
+.WhyChoose .container{
+    min-height: 110vh;
+}
+
+.container {
+    width: 509px;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    background: white;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.marquee {
+    width: auto;
+    top: 480px;
+    position: relative;
+    box-sizing: border-box;
+    animation: marquee 15s linear infinite;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    border-width: 0 18px;
+    border-color: #163247;
+    border-style: dashed;
+}
+.marquee:hover {
+    animation-play-state: paused;
+}
+
+.marquee img {
+    box-sizing: border-box;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    border-top: 18px #163247 dashed;
+}
+
+@keyframes marquee {
+    0% {
+    transform: translateY(0%);
+    }
+    100% {
+    transform: translateY(-50%);
+    }
+}
+
+@media screen and (min-width:640px){
+
+}
+
+  
