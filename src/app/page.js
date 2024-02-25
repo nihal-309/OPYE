@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
-import Choose from "./components/WhyChoose"
-import Ready from "./components/Ready"
+import Choose from "../components/WhyChoose"
+import Ready from "../components/Ready"
 import "./globals.css";
 
 

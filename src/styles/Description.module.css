@@ -1,0 +1,27 @@
+.Description img{
+    margin: 0 30px 20px 0;
+  }
+
+.DescriptionText{
+    text-align: left;
+}
+
+.DescriptionText h2{
+    font-weight: 800;
+    font-family: 'Montserrat';
+    margin-bottom: 0;
+    color: #163247;
+}
+
+.DescriptionText h6{
+    font-weight: 300;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+.Description{
+    display: flex;
+}
