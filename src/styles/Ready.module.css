@@ -1,44 +1,71 @@
-.Ready{
-    background-color: #B4DCFA;
-    margin: 20px 0;
-    display: flex;
-    position: relative;
+.Ready {
+  background-color: #b4dcfa;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 5%;
+}
+.ReadyText {
+  text-align: left;
+  width: 100%;
+}
+.content1 {
+  width: 700px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.content1 .head {
+  text-align: left;
+  text-align: center;
+  font-family: "Lobster";
+  font-size: 48px;
+  color: #163247;
+  margin-top: 20%;
+  width: 100%;
 }
 
-.ReadyText{
-    text-align: left;
+.content1 .ReadyText a {
+  color: #163247;
+  font-family: "Exo2" serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 39px;
+  min-width: 300px;
 }
 
-.content1 .ReadyText a{
-    color: #163247;
-    font-family: 'Exo2' serif;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 39px;
+.content1 .ReadyText p {
+  color: #163247;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 39px;
+  font-family: "Montesrrat" "serif";
+  width: 100%;
+  margin: 0 auto;
 }
 
-.content1 .ReadyText p{
-    color: #163247;
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 39px;
-    font-family: 'Montesrrat' 'serif';
+.ReadyCarousel .container .marquee {
+  max-height: 120vh !important;
 }
 
-.content1 .head{
-    text-align: left;
-    text-align: center;
-    font-family: 'Lobster';
-    font-size: 48px;
-    color: #163247;
-}
-  
-.content1{
-    width: 466px;
-    padding: 80px 150px;
-    width: 25%;
+.learn {
+  text-align: center;
+  margin-top: 20px;
 }
 
-.ReadyCarousel .container .marquee{
-    max-height: 120vh !important;
+@media screen and (max-width: 1155px) {
+  .Ready {
+    flex-direction: column-reverse;
+    align-items: center;
+    row-gap: 30px;
+  }
+  .content1 {
+    height: fit-content;
+    width: 60%;
+  }
+  .content1 .head {
+    margin: 0;
+  }
 }
