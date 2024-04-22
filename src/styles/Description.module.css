@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;900&display=swap');
+
+.container{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.head{
+    font-size: 100px;
+    line-height: 163px;
+    font-weight: 400;
+    font-family: "Marcellus" , serif;
+    margin: 25px;
+}
+
+.desc{
+    width: 750px;
+    text-align: center ;
+    margin:0 auto;
+}

@@ -1,0 +1,13 @@
+.contt{
+    /* background-image: url('../app/images/backgorund.png'); */
+    background-size: cover;
+    color: white;
+}
+
+.img{
+    position: absolute;
+    z-index: -1;
+    height: 120vh;
+    width: 100%;
+    filter: brightness(0.48);
+}

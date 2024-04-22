@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.travel{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    margin:50px auto;
+    background-color: white;
+    padding: 20px 60px 100px 60px;
+    border-radius: 30px;
+}
+
+.search button{
+    margin-left: 50%;
+}
+
+.cities{
+    appearance: none;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #E3E3E3;
+    border: none;
+    font-size: 17px;
+    line-height: 35px;
+    font-weight: 300;
+    font-family: outfit;
+    width: 190px;
+}
+
+.travel .textbox{
+    background-color: #E3E3E3;
+    width: 190px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    font-size: 17px;
+    line-height: 35px;
+    font-weight: 300;
+    font-family: outfit;
+    border-radius: 30px;
+    color: black !important;
+}
+
+.rooms{
+    appearance: none;
+    padding: 3px 10px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #E3E3E3;
+    border: none;
+    font-size: 17px;
+    line-height: 35px;
+    font-weight: 300;
+    font-family: outfit;
+    width: 190px;
+}
+
+.head{
+    text-align: center;    
+}
+
+.search{
+    background-color: black;
+    color: white;
+    padding: 3px 40px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 30px;
+    margin: 0 auto;
+    display: block;
+    font-size: 17px;
+    line-height: 35px;
+    font-weight: 300;
+    font-family: outfit;
+    position: relative;
+    bottom: 120px;
+}

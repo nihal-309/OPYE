@@ -1,4 +1,7 @@
 import Export from "../components/Explore";
+import Travel from "../components/Travel";
+import Landing from "@/components/Landing1";
+import Description from "@/components/Description";
 import "./globals.css";
 
 export default function Home() {
@@ -6,7 +9,7 @@ export default function Home() {
     <main>
       {/* <Choose />
       <Ready /> */}
-      <Export head="Explore Our Exclusive Travel Packages"
+      {/* <Export head="Explore Our Exclusive Travel Packages"
               body="Embark on a journey of discovery with
                     our handpicked selection of exclusive travel
                     packages. From captivating cultural experiences
@@ -15,7 +18,13 @@ export default function Home() {
                     for every explorer. Dive into a world of
                     possibilities and let us guide you towards
                     unforgettable destinations, luxurious accommodations,
-                    and immersive activities. "/>
+                    and immersive activities. "
+      /> */}
+      <div className="cont">
+        <Landing />
+        <Description />
+        <Travel />
+      </div>
     </main>
   );
 }

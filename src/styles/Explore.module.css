@@ -20,7 +20,7 @@
 
 .head h1{
     font-weight: 700;
-    font-family: Outfit;
+    font-family: 'Outfit';
     font-size: 62px;
     margin: 0;
     grid-area: 1/2/1/2;
