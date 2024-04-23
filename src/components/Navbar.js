@@ -7,10 +7,10 @@ const Landing = () => {
               <div className={styles.first}>Logo</div>
           </div>
           <div className={styles.second}>
-              <p>Home</p>
-              <p>Packages</p>
-              <p>Book Online</p>
-              <p>Contact us</p>
+              <a href="./">Home</a>
+              <a href="./">Packages</a>
+              <a href="./">Book Online</a>
+              <a href="./">Contact us</a>
           </div>
           <div className={styles.logIn}>Log In</div>
       </div>

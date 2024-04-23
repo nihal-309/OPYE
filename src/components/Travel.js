@@ -30,7 +30,7 @@ function Travel(){
     return (
         <>
         <div className={styles.travel}>
-            <div className={styles.sec-1}>
+            <div>
                 <h3 className={styles.head}>Select Destination</h3>
                 <select className={styles.cities} id="cities">
                     <option value="bangalore">Bangalore</option>
@@ -39,7 +39,7 @@ function Travel(){
                     <option value="Pondicherry">Pondicherry</option>
                 </select>
             </div> 
-            <div className={styles.sec-2}>
+            <div>
                 <h3 className={styles.head}>Starting Date</h3>
                 <input 
                     placeholder={formattedDate} 
@@ -52,7 +52,7 @@ function Travel(){
                     onChange={(e) => setValue(e.target.value)}
                 />
             </div>
-            <div className={styles.sec-3}>
+            <div>
                 <h3 className={styles.head}>Rooms</h3>
                 <select className={styles.rooms} id="rooms">
                     <option value="one">1 Room</option>

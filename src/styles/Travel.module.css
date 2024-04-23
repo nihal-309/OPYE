@@ -28,7 +28,7 @@
     width: 190px;
 }
 
-.travel .textbox{
+.textbox{
     background-color: #E3E3E3;
     width: 190px;
     text-align: center;
@@ -40,6 +40,14 @@
     font-family: outfit;
     border-radius: 30px;
     color: black !important;
+}
+
+input.textbox::selection {
+    background: none;
+}
+
+input.textbox::-moz-selection {
+    background: none;
 }
 
 .rooms{
